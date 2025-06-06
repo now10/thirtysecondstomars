@@ -1,0 +1,12 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+thirtysecondstomars.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_f98f3f367c3633dc0e6d1c5dfa75fe6c	t_ac5d7c4da0195a04384d40099c2db4%7C%7C1741300129%7C%7C1741296529%7C%7C9f774f215cb6c030e0bd0471ebaa043f
+thirtysecondstomars.com:443	TRUE	/	FALSE	1999999999	AWSALB	jjxSOrewcrXCa8GVlVn7memjqDrL1hbnoWWUhwgT5PLcGYL3NlX6YpC19ha/jCCiFTzxO/8M3wQf5+uQ3dh1wzdbWZRMp8Odta5buUi37VoOvrXzLHJ2/LcOjQ1Q
+thirtysecondstomars.com:443	TRUE	/	FALSE	1999999999	AWSALBCORS	jjxSOrewcrXCa8GVlVn7memjqDrL1hbnoWWUhwgT5PLcGYL3NlX6YpC19ha/jCCiFTzxO/8M3wQf5+uQ3dh1wzdbWZRMp8Odta5buUi37VoOvrXzLHJ2/LcOjQ1Q
+thirtysecondstomars.com:443	TRUE	/	FALSE	1999999999	SameSite	None
+thirtysecondstomars.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+thirtysecondstomars.com	TRUE	/	FALSE	1999999999	AWSALB	lEkmGjwvF/mIDxnuA2KJYjeJzPutGDzjBpMUKlyHvprJGGSghyJWH5mab7hEVxmEp1+HNrUKIoBoygNQ9XBEPWPo0wg4KXZ4+entjp80ZZUWWx68LRCuKPPj1YC/
+thirtysecondstomars.com	TRUE	/	FALSE	1999999999	AWSALBCORS	lEkmGjwvF/mIDxnuA2KJYjeJzPutGDzjBpMUKlyHvprJGGSghyJWH5mab7hEVxmEp1+HNrUKIoBoygNQ9XBEPWPo0wg4KXZ4+entjp80ZZUWWx68LRCuKPPj1YC/
+thirtysecondstomars.com	TRUE	/	FALSE	1999999999	SameSite	None
+thirtysecondstomars.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	b8db75561411a1554b624ccd5ec1bb27
+
