@@ -1,0 +1,8 @@
+.elementor-11 .elementor-element.elementor-element-b5fd8fb{--display:flex;--margin-top:50px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}/* Start custom CSS */@media screen and (max-width: 1024px) {
+.elementor-element-b5fd8fb {margin: 0;}
+.elementor-element-b5fd8fb .woocommerce {display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;}
+.elementor-element-b5fd8fb .woocommerce .woocommerce-MyAccount-navigation ul {
+    padding: 0;
+}}/* End custom CSS */

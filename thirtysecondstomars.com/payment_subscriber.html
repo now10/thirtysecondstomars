@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 { color: #333; }
+        .payment-option {
+            background: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 2px solid #ddd;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+        .copy-btn {
+            background: #ff6600; color: white; padding: 5px 10px;
+            border: none; cursor: pointer; font-size: 14px; border-radius: 3px;
+        }
+        .copy-btn:hover { background: #cc5500; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Choose Your Payment Method</h1>
+        <p>Pay the amount: <strong id="amount"></strong></p>
+
+        <div class="payment-option">
+            <span>PayPal: <strong id="paypal">paypal@example.com</strong></span>
+            <button class="copy-btn" onclick="copyToClipboard('paypal')">Copy</button>
+        </div>
+
+        <div class="payment-option">
+            <span>CashApp: <strong id="cashapp">$cashappTag</strong></span>
+            <button class="copy-btn" onclick="copyToClipboard('cashapp')">Copy</button>
+        </div>
+
+        <div class="payment-option">
+            <span>Bank Transfer: <strong id="bank">123-456-7890</strong></span>
+            <button class="copy-btn" onclick="copyToClipboard('bank')">Copy</button>
+        </div>
+    </div>
+
+    <script>
+        // Get the payment amount from the URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        document.getElementById("amount").innerText = "$" + getQueryParam("amount");
+
+        // Copy payment address to clipboard
+        function copyToClipboard(id) {
+            const text = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Copied: " + text);
+            });
+        }
+    </script>
+
+</body>
+</html>

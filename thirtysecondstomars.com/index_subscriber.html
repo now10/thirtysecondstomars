@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Mailing/Fan page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 { color: #333; }
+        .tier {
+            background: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 2px solid #ddd;
+            transition: 0.3s;
+        }
+        .tier:hover { border-color: #ff6600; }
+        .tier h2 { color: #ff6600; }
+        .price { font-size: 20px; font-weight: bold; margin: 10px 0; }
+        .subscribe-btn {
+            background: #ff6600; color: white; padding: 10px 20px;
+            border: none; cursor: pointer; font-size: 16px; border-radius: 5px;
+        }
+        .subscribe-btn:hover { background: #cc5500; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Join Our Mailing/Fan page</h1>
+        <p>Get exclusive access to premium content and updates!</p>
+
+        <div class="tier">
+            <h2>Basic</h2>
+            <p class="price">$500/year</p>
+            <button class="subscribe-btn" onclick="redirectToPayment(500)">Subscribe</button>
+        </div>
+
+        <div class="tier">
+            <h2>Premium</h2>
+            <p class="price">$2,000/year</p>
+            <button class="subscribe-btn" onclick="redirectToPayment(2000)">Subscribe</button>
+        </div>
+
+        <div class="tier">
+            <h2>VIP</h2>
+            <p class="price">$5,000/year</p>
+            <button class="subscribe-btn" onclick="redirectToPayment(5000)">Subscribe</button>
+        </div>
+    </div>
+
+    <script>
+        function redirectToPayment(amount) {
+            window.location.href = "payment.html?amount=" + amount;
+        }
+    </script>
+
+</body>
+</html>

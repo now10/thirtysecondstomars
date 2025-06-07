@@ -1,0 +1,659 @@
+.ans-auction-product-summary {
+	float: left;
+	width: 100%;
+}
+
+.ans-auction-product-summary p {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+.ans-auction-time-left-label-shop-page {
+	display: block;
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.ans-auction-form, 
+.ans-auction-date-ranges {
+	float: left;
+	width: 100%;    
+}
+
+.ans-auction-date-ranges .ans-auction-countdown-timer {
+	display: block;
+	clear: both;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+.ans-auction-countdown-timer .ans-auction-timer {
+	float: left;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.ans-auction-date-ranges .ans-auction-start-time-label {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.ans-auction-price {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.ans-auction-price .ans-auction-bid-increment {
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+}
+
+.ans-auction-timer #ans_auction_days,
+.ans-auction-timer #ans_auction_hours,
+.ans-auction-timer #ans_auction_minutes,
+.ans-auction-timer #ans_auction_seconds {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.ans-auction-product-summary .ans-auction-remove-watchlist, 
+.ans-auction-product-summary .ans-auction-add-watchlist {
+	display: inline-block;
+	padding: 0;
+	border-radius: 5px;
+	color: #6b056f;
+	background: none;
+	border: none;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+.ans-auction-product-summary .ans-auction-remove-watchlist span, 
+.ans-auction-product-summary .ans-auction-add-watchlist span{
+	margin-right: 10px;
+	color: #6b056f;
+	font-size: 24px;
+}
+
+/* Product Badge design */
+
+.ans-badge {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 700;
+	text-align: center;
+	font-size: .857em;
+	line-height: 3.236;
+	z-index: 9;
+}
+
+.ans-badge {
+	top: 0;
+	right: auto;
+	left: 0;
+	margin-top: -5px;
+	margin-left: -5px;
+	width: 80px;
+	height: 80px;
+}
+
+.ans-badge img {
+	display: block;
+	width: 32px !important;
+	height: 32px !important;
+	margin-top: -70px !important;
+	margin-left: 10px !important;
+}
+
+.ans-badge:before {
+	display: block;
+	content: '';
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
+
+/* Shop Page Timmer */
+
+.ans-shop-timer-wrapper {
+	width: 100%;
+	padding: 0.5em 0;
+	margin: 10px 0 20px 0;
+	overflow: hidden;    
+}
+
+.ans-shop-timer-wrapper .ans-shop-timer-container {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+
+.ans-shop-timer-wrapper .ans-shop-timer-container .ans-shop-timer-section {
+	display: block;
+	position: relative;
+	width: 22.5%;
+	float: left;
+	font-size: 75%;
+	text-align: center;    
+}
+
+.ans-shop-timer-section:before {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	content: '';
+	width: 1px;
+	height: 15px;
+	background: #000;
+}
+
+.ans-shop-timer-section:last-child:before {
+	content: '';
+	width: 0;
+	height: 0;
+}
+
+.ans-watchlist-wrapper {
+	clear: both;
+	width: 100%;
+}
+
+.ans-frontend-table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.ans-frontend-table thead {
+	background: #f7f7f7;
+}
+
+.ans-frontend-table thead th {
+	padding: 15px;
+	color: #333;
+	background: #f7f7f7;
+	border: none;
+	text-transform: capitalize;
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	word-break: break-all;
+}
+
+.ans-frontend-table tbody tr:nth-child(2n) {
+	background: #fafafa;
+}
+
+.ans-frontend-table tbody td {
+	padding: 15px;
+	color: #666;
+	background: none;
+	border: none;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+	word-break: break-all;
+}
+
+.ans-frontend-table tbody td img {
+	width: 50px;
+	height: auto;
+	margin: auto;
+}
+
+.ans-frontend-table tbody td a {
+	color: #00f;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.ans-frontend-table tbody td a:hover {
+	text-decoration: underline;
+}
+
+.ans-frontend-table tbody td span {
+	color: #f00;
+	font-size: 14px;
+}
+
+.ans-frontend-table tbody td .ans-auction-remove-watchlist {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	color: #fff;
+	background: none;
+	border-radius: 5px;
+	border: none;
+	box-shadow: none;
+	font-weight: 600;
+}
+
+.ans-frontend-table tbody td .ans-auction-remove-watchlist span {
+	margin-right: 5px;
+	color: #f00;
+	font-size: 30px;    
+}
+
+.ans-frontend-table tfoot {
+	border: none;
+	box-shadow: none;
+}
+
+.ans-frontend-table tfoot td {
+	padding-right: 0;
+	background: none;
+	border: none;    
+}
+
+.ans-frontend-table tfoot nav {
+	float: right;
+	border: 0;
+	clear: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.ans-frontend-table tfoot nav ul {
+	margin: 0;
+	list-style: none;
+	border: none !important;
+}
+
+.ans-frontend-table tfoot nav ul li {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.ans-frontend-table tfoot nav ul li span {
+	margin: 0;
+	padding: 0;
+}
+
+.ans-frontend-table tfoot nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	background: #fafafa;
+	border: none;
+	color: #43454b;
+	text-decoration: none;
+}
+
+.ans-frontend-table tfoot nav ul li .current {
+	background: none;
+	border: none;
+}
+
+.ans-frontend-table tfoot nav ul li .current a,
+.ans-frontend-table tfoot nav ul li a:hover {
+	background: #ccc;
+	border: none;
+	color: #000;
+}
+
+.ans-private-message-wrapper {
+	float: left;
+	width: 100%;    
+}
+
+.ans-private-message-wrapper .ans-private-message-message-container {
+	float: left;
+	padding: 10px;
+	width: 100%;
+}
+
+.ans-private-message-wrapper .ans-private-message-message-container label {
+	display: block;
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.ans-private-message-wrapper .ans-private-message-message-container textarea {
+	width: 100%;
+	min-height: 100px;
+	margin-bottom: 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.ans-private-message-wrapper .ans-send-private-message {
+	float: left;
+	margin: 0;
+	padding: 7px 15px;
+	color: #333;
+	border: none;
+	border-radius: 5px;
+	background: #f7f7f7;    
+}
+
+.ans-private-message-wrapper .ans-send-private-message:hover {
+	box-shadow: 0 0 3px #000;
+}
+
+.ans-auction-product-summary .ans-auction-winning-notice {
+	color: #358014;
+}
+
+.ans-auction-product-summary .ans-auction-failed-notice {
+	color: #f00;
+}
+
+.ans-auction-product-summary .ans-auction-bid-now {
+	float: left;
+	width: 100%;
+}
+
+.ans-auction-product-summary .ans-auction-bid-now span {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	background: #fbfbfb;
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	line-height: 2;
+}
+
+.ans-auction-product-summary .ans-auction-bid-now span:hover {
+	background: #f1f1f1;
+}
+
+.ans-auction-product-summary .ans-auction-bid-now input[type='text'] {
+	float: left;
+	width: 70px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	border-left: 0;
+	border-right: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+	box-shadow: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ans-auction-product-summary .ans-auction-bid-now .ans-auction-bid {
+	float: left;
+	min-width: 50px;
+	height: 40px;
+	margin: 0;
+	margin-left: 15px;
+	padding: 0 7px;
+	box-shadow: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Auction Dashboard Design */
+
+.ans-auction-table-wrapper {
+	margin-bottom: 20px;
+}
+
+.ans-auction-table-wrapper,
+.ans-auction-table-navigation,
+.ans-auction-table-contents {
+	float: left;
+	width: 100%;
+}
+
+.ans-auction-table-navigation nav {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.ans-auction-table-navigation nav a {
+	float:left;
+	margin: 0; 
+	padding: 10px 15px;
+	background: none;
+	border: none;
+	text-decoration: none !important;
+}
+
+.ans-auction-table-navigation nav a span {
+	margin-right: 5px;
+}
+
+.ans-auction-table-navigation nav .ans-current {
+	background: none;
+	border-bottom: none;
+	font-weight: bold;    
+}
+
+.ans-auction-table-contents h3 {
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.ans-auction-table-contents h3, 
+.ans-auction-table-contents table {
+	width: 95%;
+	margin: 10px auto;
+}
+
+.ans-auction-table-contents {
+	background: #fff;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.ans-auction-table-contents .ans-no-product-notice{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Widget Search field */
+
+.ans-product-search label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.ans-product-search input[type='search'] {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+/* Auction status */
+
+.ans_auction_not_started_status span,
+.ans_auction_finished_status span,
+.ans_auction_failed_status span,
+.ans_auction_started_status span,
+.ans_auction_closed_status span,
+.ans_auction_pending_payment_status span {
+	display: block;
+	float: left;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.ans_auction_not_started_status span {
+	background: #f8dda7;
+	color: #94660c;
+}
+
+.ans_auction_finished_status span {
+	color: #2e4453;
+	background: #c8d7e1;
+}
+
+.ans_auction_failed_status span {
+	color: #761919;
+	background: #eba3a3;
+}
+
+.ans_auction_started_status span {
+	color: #5b841b;
+	background: #c6e1c6;
+}
+
+.ans_auction_closed_status span {
+	color: #94660c;
+	background: #f8dda7;
+}
+
+.ans_auction_pending_payment_status span {
+	background: #e5e5e5;
+	color: #777;
+}
+
+.ans_auction_reload_auction_page span{
+	margin-top: 7px;
+	margin-left: 5px;
+	cursor: pointer;
+	color: #000;
+}
+
+.ans-clear {
+	clear: both;
+}
+
+.ans-auction-product-list-table{
+  table-layout:fixed;
+}
+.ans-auction-product-list-table thead th, 
+.ans-auction-product-list-table tbody td{
+  word-break:break-word;
+}
+
+.ans-search-auction-product-filters{
+  display: flex;
+  float: right;
+}
+.ans-search-auction-product-filters .ans-auction-list-table-search{
+  height:50px;
+  margin-right:5px;
+  font-size:18px;
+}
+
+.ans-search-auction-product-filters .ans-auction-list-table-search-btn{
+  font-size:16px;
+  padding: 10px 15px;
+}
+
+.ans-product-details{
+	display:flex;
+	float:right;
+}
+
+.ans-auction-catalog-bid-increment{
+	margin-bottom: .236em;
+}
+
+.ans-auction-watchlist-count-message{
+	color: #6b056f;
+}
+
+@media screen and (max-width: 768px) {
+
+	.ans-frontend-table {
+		border: 1px solid #f1f1f1;
+	}
+
+	.ans-frontend-table tbody tr {
+		display: block;
+	}
+
+	.ans-frontend-table thead {
+		display: none;
+	}
+
+	.ans-frontend-table tr td::before {
+		float: left;
+		content: attr(data-title) ": ";
+		font-weight: 700;
+	}
+	.ans-frontend-table tfoot tr td {
+		border: none;
+		text-align: center !important;
+	}
+
+	.ans-frontend-table tfoot tr td nav{
+		float: none;
+	}
+
+	.ans-frontend-table tfoot tr td::before {
+		float: left;
+		content: " ";
+	}
+
+	.ans-frontend-table tr td {
+		display: block;
+		border-right: 0; 
+		border-bottom: 1px solid #f1f1f1;
+		text-align: right !important;
+	}
+
+	.ans-frontend-table tbody td button {
+		float: none;
+	}
+
+	.ans-auction-table-navigation nav {
+		background: #f7f7f7;
+	}	
+
+	.ans-frontend-table tr td::before,
+	.ans-frontend-table tr td::after {
+		display: table;
+	}
+
+	.ans-frontend-table tr td::after {
+		clear: both;
+		content: "";
+	}
+
+	.ans_auction_not_started_status span, 
+	.ans_auction_finished_status span, 
+	.ans_auction_failed_status span, 
+	.ans_auction_started_status span, 
+	.ans_auction_closed_status span, 
+	.ans_auction_pending_payment_status span {
+		display: initial;
+		float: none;
+		padding: 10px;
+		border-radius: 5px;
+
+	}
+}

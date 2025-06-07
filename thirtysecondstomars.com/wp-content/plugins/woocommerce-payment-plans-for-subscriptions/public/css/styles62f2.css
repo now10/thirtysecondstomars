@@ -1,0 +1,133 @@
+
+/* = Product Page
+---------------------------------------------------- */
+
+.product-purchase-options{
+	max-width: 360px;
+}
+
+.product-purchase-option{
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.product-purchase-option:not(:first-child){
+	margin-top: 8px;
+}
+
+.product-purchase-option.active{
+	border-color: #a6a6a6;
+}
+
+.product-purchase-option label{
+	cursor: pointer;
+
+	padding: 12px 15px;
+	display: block;
+}
+
+.product-purchase-option input{
+	margin-right: 0.25em;
+}
+
+.product-purchase-option .subscription-option-selected{
+	border-top: 1px solid #a6a6a6;
+	padding: 12px 35px 12px 15px;
+	display: block;
+
+	background-image: url(../images/icon-select.svg);
+	background-position: calc(100% - 15px) 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.product-purchase-option:not(.active) .subscription-option-selected{
+	display: none;
+}
+
+.product-purchase-option .subscription-suboptions{
+	background-color: #fff;
+	margin: 1px 0 0;
+	padding: 0;
+
+	border-width: 1px 1px 0;
+	border-color: #f2f2f2;
+	border-style: solid;
+}
+
+.subscription-option-selected:not(.clicked) + .subscription-suboptions{
+	display: none;
+}
+
+.product-purchase-option .subscription-suboptions li{
+	list-style: none;
+	cursor: pointer;
+
+	border-bottom: 1px solid #f2f2f2;
+	padding: 10px 15px;
+
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+
+	-webkit-display: flex;
+	display: flex;
+}
+
+.product-purchase-option .subscription-suboptions li::after,
+.product-purchase-option .subscription-suboptions li::before{
+	display: none;
+}
+
+.product-purchase-option .subscription-suboptions li:hover,
+.product-purchase-option .subscription-suboptions li.active{
+	background-color: #f2f2f2;
+}
+
+.product-purchase-option .subscription-suboptions .product-purchase-option-label{
+	padding-right: 10px;
+	max-width: 80%;
+}
+
+.product-purchase-option .subscription-suboptions .product-purchase-option-price{
+	max-width: 20%;
+}
+
+.product-purchase-option .subscription-suboptions .product-purchase-option-description,
+.product-purchase-option .subscription-suboptions .product-purchase-option-sign-up-price{
+	width: 100%;
+}
+
+/* = Cart Page
+---------------------------------------------------- */
+
+.woocommerce .product-payment-plan-options{
+	margin-top: 5px;
+}
+
+.woocommerce .product-payment-plan-options input{
+	margin: 0 6px 0 0;
+}
+
+.woocommerce .product-payment-plan-options input.hidden{
+	display: none;
+}
+
+.woocommerce .product-payment-plan-sign-up-fee{
+	display: block;
+}
+
+.woocommerce table.shop_table .divider td{
+	padding: 0;
+}
+
+.woocommerce table.shop_table .divider td::before{
+	display: block;
+	height: 1px;
+
+	background-color: #e1e1e1;
+	content: '';
+}
